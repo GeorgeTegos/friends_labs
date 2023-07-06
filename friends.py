@@ -65,6 +65,7 @@ people = [person1, person2, person3, person4, person5]
 # INPUT: person5
 # OUTPUT: "Daphne"
 
+#Change here!
 def get_name(person):
     return person["name"]
 
