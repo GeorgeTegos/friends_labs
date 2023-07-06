@@ -175,7 +175,9 @@ print(find_no_friends(people))
 # INPUT: people
 # OUTPUT: ['Friends', 'Baywatch', 'Pokemon', 'X-Files']
 def unique_favourite_tv_shows(people):
+    shows = []
     for tv in people:
-        if tv["favourites"]["tv_shows"]
-
+        shows.append(tv["favourites"]["tv_show"])
+    return set(shows)
+print(unique_favourite_tv_shows(people))
 # BONUS: Try to refactor the previous function to use Python's built-in set() function.
